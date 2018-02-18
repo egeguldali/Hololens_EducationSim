@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Dna_Structer.unity
+  isLoaded: 1
+  isActive: 1
