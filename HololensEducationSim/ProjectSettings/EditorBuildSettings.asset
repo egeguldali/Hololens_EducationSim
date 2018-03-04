@@ -6,5 +6,14 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3db074f3ecac2b5468e3a785ac44d7fb
+  - enabled: 1
     path: Assets/Scenes/PeriodicTable.unity
     guid: 7b1288f56e11c4d4c9280149f974d592
+  - enabled: 1
+    path: Assets/Scenes/Dna_Structer.unity
+    guid: 905d069d15f79c6469d56c6130d95a60
+  - enabled: 0
+    path: Assets/Scenes/periyodi2.unity
+    guid: 18a1b25040cd5b447827a3f8c20592fb
