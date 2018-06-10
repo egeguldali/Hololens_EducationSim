@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/UI_Scene.unity
+    guid: ac4443623d9a57f4fb2d33eefb2a6c29
+  - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 3db074f3ecac2b5468e3a785ac44d7fb
   - enabled: 1
@@ -17,3 +20,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/periyodi2.unity
     guid: 18a1b25040cd5b447827a3f8c20592fb
+  - enabled: 1
+    path: Assets/Scenes/BasitMakineler.unity
+    guid: f68657d85040e7249b6857ff0b2000da

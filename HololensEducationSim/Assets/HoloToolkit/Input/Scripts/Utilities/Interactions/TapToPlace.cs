@@ -65,7 +65,7 @@ namespace HoloToolkit.Unity.InputModule
             {
                 StartPlacing();
             }
-            else // If we are not starting out with actively placing the object, give it a World Anchor
+            else // If we are not starting out with actively placing the object, give it a World A qnchor
             {
                 AttachWorldAnchor();
             }

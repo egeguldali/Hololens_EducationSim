@@ -44,8 +44,9 @@ public class CreateDna : MonoBehaviour {
 
         GameObject clone;
         clone = GameObject.Instantiate(GC_Nucleotid, GC_Nucleotid.transform.position, GC_Nucleotid.transform.rotation, DNA_parent.transform);
-        clone.transform.position = new Vector3(0, order, 0);
+        clone.transform.position = new Vector3(0, order* 0.5f, 0);
         clone.transform.Rotate(new Vector3(0, order * 30, 0));
+        DNA_parent.transform.position += new Vector3(0, -0.3f, 0);
         order = order + 1;
 
         bagSayisi += 3;
@@ -58,8 +59,9 @@ public class CreateDna : MonoBehaviour {
     {
         GameObject clone;
         clone = GameObject.Instantiate(AT_Nucleotid, AT_Nucleotid.transform.position, AT_Nucleotid.transform.rotation, DNA_parent.transform);
-        clone.transform.position =new Vector3(0, order, 0);
+        clone.transform.position =new Vector3(0, order * 0.5f, 0);
         clone.transform.Rotate(new Vector3(0, order * 30, 0));
+        DNA_parent.transform.position += new Vector3(0, -0.3f, 0);
         order = order + 1;
 
         bagSayisi += 2;

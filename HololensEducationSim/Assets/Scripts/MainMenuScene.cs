@@ -23,4 +23,18 @@ public class MainMenuScene : MonoBehaviour {
         SceneManager.LoadScene("Dna_Structer");
     }
 
+    public void openBasitMakineler()
+    {
+        GameObject.Destroy(x);
+        GameObject.Destroy(y);
+        SceneManager.LoadScene("BasitMakineler");
+    }
+
+    public void returnMenu()
+    {
+        GameObject.Destroy(x);
+        GameObject.Destroy(y);
+        SceneManager.LoadScene("UI_Scene");
+    }
+
 }
